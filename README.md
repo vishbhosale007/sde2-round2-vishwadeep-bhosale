@@ -27,3 +27,10 @@ Criteria:
 
 **Note:**
 - Follow all the best practices you would follow for a production grade code.
+
+
+** Run following command to get results: **
+```
+cd scripts
+python3 packages.py; python3 main.py
+```
