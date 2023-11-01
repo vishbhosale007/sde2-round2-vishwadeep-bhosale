@@ -79,10 +79,6 @@ def write_to_csv_on_s3(df_to_write,path):
 
 
 def main():
-    # Install needed modules (Did not create requirements.txt as requiremnt was to run this script in single command.)
-    os.system(f'python3 {os.getcwd()}\\scripts\\packages.py')
-
-
     # PostGres connection details
     pg_database, pg_user, pg_password = get_connection_info('postgres')
     pg_connection_string = f"postgresql+psycopg2://{pg_user}:{pg_password}@localhost/{pg_database}"
